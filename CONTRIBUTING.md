@@ -22,24 +22,24 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 
 ## How to contribute:
 
-**1.** Fork [this](https://github.com/Learn-For-Cause/Mentor-Me) repository.
+**1.** Fork [this](https://github.com/Learn-For-Cause/ACAResource) repository.
 
 **2.** Clone the forked repository.
 
 ```terminal
-git clone git@github.com:Learn-For-Cause/Mentor-Me.git
+git clone git@github.com:Learn-For-Cause/ACAResource.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```terminal
-cd Mentor-Me
+cd ACAResource
 ```
 
 **4.** Create a new branch.
 
 ```terminal
-git checkout test
+git checkout testing
 ```
 
 **5.** Make changes in source code.
@@ -54,9 +54,9 @@ git checkout test
 **7.** Push your local branch to the remote repository.
 
 ```terminal
-git push -u origin test
+git push -u origin testing
 ```
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax till we review your PR, you've made your contribution to [discuss-thread](https://github.com/Learn-For-Cause/Mentor-Me.git) project.
+**Congratulations!** Sit and relax till we review your PR, you've made your contribution to [discuss-thread](https://github.com/Learn-For-Cause/ACAResource.git) project.
