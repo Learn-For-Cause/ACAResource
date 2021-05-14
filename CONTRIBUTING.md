@@ -59,4 +59,4 @@ git push -u origin testing
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax till we review your PR, you've made your contribution to [discuss-thread](https://github.com/Learn-For-Cause/ACAResource.git) project.
+**Congratulations!** Sit and relax till we review your PR, you've made your contribution to [ACAResource](https://github.com/Learn-For-Cause/ACAResource.git) project.
