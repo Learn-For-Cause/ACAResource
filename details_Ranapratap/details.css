@@ -1,0 +1,57 @@
+.Second_coloumn1{
+    
+    padding-left: 370px;
+} 
+.Everything_heading{
+    padding-left: 450px;
+    padding-top: 40px;
+    color:rgb(69, 182, 69);
+    font-size: 32px;
+}
+.First_coloumn1
+{
+    padding-left: 300px;
+}
+.First_coloumn2
+{
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.Second_coloumn2
+{
+    padding-left: 370px;
+    padding-top: 20px;
+}
+.Second_coloumn2 h2 
+{
+    color:rgb(69, 182, 69);
+}
+.Second_coloumn1 h2
+{
+    color:rgb(69, 182, 69);
+}
+.First_coloumn1 h2
+{
+    color:rgb(69, 182, 69);
+}
+.First_coloumn2 h2{
+    color:rgb(69, 182, 69);
+}
+button
+{
+    padding:22px;
+    background-color:rgb(69, 182, 69);
+    border:none;
+    
+}
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+
+}
+.Blue_Button{
+    padding-left: 680px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
