@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+.coloumn a
+{
+    text-decoration: none;
+       
+}
+.all_coloum 
+{
+    padding-left:140px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 20px;
+    color:black;
+}
+.First_row a
+{
+    font-size:26px;
+    color:rgb(89, 173, 89);
+   
+}
+.material_heading
+{
+    color:rgb(89, 173, 89);
+    font-size: 28px;
+     
+}
+.all_coloum:hover{
+    background-color: whitesmoke;
+}
+.all_coloum  a
+{
+    color:black;
+}
+
+.First_row{
+    padding-top: 20px;
+}
+.green_button
+{
+    padding:22px;
+    background-color:rgb(89, 173, 89);
+    font-size: 20px;
+    color:whitesmoke;
+    border: none;
+    text-decoration: none;
+}
+.view_more_button
+{
+    padding-top: 32px;
+    box-shadow: none;
+    align-self: center;
+    
+}
+.green_button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
