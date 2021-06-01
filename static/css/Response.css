@@ -26,7 +26,7 @@
     position: relative;
     padding: 80px;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
 }
 .text h3{
     font-size: 40px;
