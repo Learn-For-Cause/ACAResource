@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.card
+{
+    background: white;
+    width:600px;
+    height: 350px;
+    margin: 10px;
+}
+.card-images{
+    background-color: aqua;
+    height:150px;
+    margin-bottom: 15px;
+}
