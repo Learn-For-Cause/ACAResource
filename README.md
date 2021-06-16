@@ -4,7 +4,7 @@
 
 
 ### Description 👀
-ACA Resource is a platform for Peer-to-Peer Notes sharing, where faculties, toppers, and institutes share their class notes with other students.
+ACA Resource is a platform for Peer-to-Peer Notes sharing where faculties, toppers, and institutes share their class notes with other students.
 
 ACA Resource aims to remove dictation from Classroom and bind the students and teachers(educators) community worldwide into a single platform where they can Learn, Share and Educate each other.
 
