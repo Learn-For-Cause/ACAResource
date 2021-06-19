@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    background-color:white;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.card
+{
+    background:black;
+    color:white;
+    font-family: 'Crimson Text', serif;
+    width:200px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+.card-images{
+    background-color: aqua;
+    height:150px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.cs
+{
+    background-image: url('mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg');
+}
+.mech
+{
+    background-image: url('thisisengineering-raeng-nyAzMQ6Ejgs-unsplash.jpg');
+}
+.civil{
+    background-image: url('sean-pollock-PhYq704ffdA-unsplash.jpg');
+
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: #fd8413b6;
+    color:black;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    margin :10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: rgba(51, 46, 46, 0.884);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+    color:white;
+}
+.card h2{
+    text-align: center;
+}
+.agriculture{
+    background-image: url('tomas-hertogh-eS6rqvLx7o0-unsplash.jpg');
+}
+.electrical
+{
+    background-image: url('dean-brierley-L9SUgIAVvlY-unsplash.jpg');
+}
+.electronics
+{
+    background-image: url('clyde-he-555k71dHQLA-unsplash.jpg');
+}
+.ece{
+    background-image: url('jorge-ramirez-MceA9kSze0U-unsplash.jpg');
+}
+.IT{
+    background-image: url('christopher-gower-m_HRfLhgABo-unsplash.jpg');
+}
