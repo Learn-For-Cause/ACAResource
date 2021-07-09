@@ -1,0 +1,54 @@
+.Content {
+    position: relative;
+    min-height: 30vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+.Content h1{
+    font-size: 40px;
+    color: #666;
+}
+.Content .Text {
+    font-size: 20px;
+    color: rebeccapurple;
+    text-align: center;
+    position: relative;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container .box {
+    position: relative;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.text h3{
+    font-size: 40px;
+    color: #666;
+}
+.text a{
+    text-decoration: none;
+}
+.text p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.icon,.text{
+    cursor: pointer;
+}
+@media (max-width: 800px)
+{
+    .container{
+        flex-direction: column;
+    }
+    .container .box{
+        flex-direction: column;
+    }
+
+}
