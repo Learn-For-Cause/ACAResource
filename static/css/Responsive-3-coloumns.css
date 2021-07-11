@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    background-color:white;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.coloumns
+{
+
+    color:black;
+    font-family: 'Crimson Text', serif;
+    width:350px;
+    height:300px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+.coloumns p{
+   padding-top: 2px;
+   text-align: center;
+}
+.coloumns a{
+    text-align: center;
+    color:black;
+    padding-top: 2px;
+    text-align: center;
+    display: block;
+    margin :10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.coloumns h2{
+    text-align: center;
+    color:rgb(19, 226, 19);
+    padding-top: 23px;
+}
+@media only screen and (max-width: 400px) {
+
+    .coloumns p{
+        padding-top: 2px;
+        font-size: 9px;
+        
+     }
+     .coloumns a{
+         
+         color:black;
+         padding-top: 2px;
+         text-align: center;
+         display: block;
+         margin :10px 40px;
+         text-decoration: none;
+         border-radius: 10px;
+     }
+     
+     .coloumns h2{
+         text-align: center;
+         color:rgb(19, 226, 19);
+         padding-top: 23px;
+         font-size: 12px;
+        padding-left: 15px;
+         
+     }
+     h2{
+         padding-left: 45px;
+    }
+    .coloumns
+    {
+    
+        color:black;
+        font-family: 'Crimson Text', serif;
+        width:100%;
+      
+        margin: 10px;
+        border-radius: 15px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .coloumns p{
+        padding-top: 2px;
+        font-size: 12px;
+        padding-left: 15;
+     }
+     .coloumns a{
+         
+         color:black;
+         padding-top: 2px;
+         text-align: center;
+         display: block;
+         margin :10px 40px;
+         text-decoration: none;
+         border-radius: 10px;
+     }
+     .coloumns
+{
+
+    color:black;
+    font-family: 'Crimson Text', serif;
+    width:100%;
+  
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+     .coloumns h2{
+         text-align: center;
+         color:rgb(19, 226, 19);
+         padding-top: 23px;
+         font-size: 18px;
+         text-align: center;
+     }
+     h2{
+         padding-left: 45px;
+    }
+}
