@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.side-bar{
+  background: rgb(243,229,171);
+  position: absolute;
+  width: 290px;
+  z-index: 1;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+}
+
+.side-bar.active{
+  left: 0;
+}
+
+.side-bar .menu{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.side-bar .menu .item{
+  position: relative;
+  cursor: pointer;
+}
+
+.side-bar .menu .item a{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 2px 30px;
+  line-height: 35px;
+}
+.sub-btn:hover{
+background-color:lime;
+}
+
+.side-bar .menu .item i{
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu{
+  background: rgba(255, 255, 255, 0.1);
+  display: none;
+}
+
+.side-bar .menu .item .sub-menu a{
+  padding-left: 80px;
+}
+.side-bar .menu .item .sub-menu{
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+.rotate{
+  transform: rotate(90deg);
+}
+
+.close-btn{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  right: 0;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.menu-btn{
+  position:fixed;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  top:0%;
+  left:0%;
+  z-index: 1;
+  padding-left:60px;
+  padding-top:15px;
+  padding-bottom:15px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  cursor: pointer;
+}
+.login .signup{
+  text-decoration: none;;
+  color:black;
+  padding: 10px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.login .signin{
+  text-decoration: none;
+  background-color: lightgreen;
+  color:black;
+  border: 2px solid black;
+  font-weight: 700;
+  padding: 10px;
+  margin-left: 50px;
+  position:relative;
+  margin:10px;
+  border-radius: 5px;
+}
+.login{
+  margin-bottom: 20px;
+}
+.signin:hover{
+  box-shadow:3px 3px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+.name{
+  position:absolute;
+  padding-left:45px;
+  padding-top:21px;
+  font-size:24px;
+}
+.section{
+  position:relative;
+  padding-left: 20px;
+}
+.section{
+  position:relative;
+  margin-left:10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#icon{
+  left:100px;
+  top:1px;
+  position:relative;
+  
+}
+.sign_in{
+  position: absolute;
+  right:270px;
+  font-size: 16px;
+  text-decoration: none;
+  color:rgb(0, 47, 255);
+  top:18px;
+}
+.register{
+  position: absolute;
+  right:130px;
+  font-size: 16px;
+  top:8px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  font-weight: 700;
+  background-color: #7C4DFF;
+  padding:10px 20px;
+  border-radius:5px;
+  box-shadow: 0 5px 10px -8px rgb(0, 0, 0.7);
+  cursor: pointer;
+}
+.register:hover{
+  box-shadow: 0 5px 10px -8px rgb(0, 0, 0.7);
+  cursor: pointer;
+}
+.user{
+  position: absolute;
+  right:50px;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  top:10px;
+}
+@media only screen and (max-width: 990px) {
+  .sign_in {
+   display: none;
+  }
+  .register {
+    display: none;
+   }
+}
+@media only screen and (min-width: 990px) {
+  .login {
+   display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+.side-bar {
+    width: 100%;
+    text-align: center;
+  }
+  .name{
+    left:10%;
+  }
+  #element1{
+    right:10%;
+  }
+}
+@media only screen and (max-width: 312px) {
+.name{
+  left:1%
+ }
+}
+@media only screen and (max-width: 334px) {
+  #icon{
+    left:5%
+   }
+   .user{
+     display:none;
+   }
+  }
+  @media only screen and (max-width: 260px) {
+    .close-btn{
+      left:2.5%;
+      top:0%;
+     }
+     .side-bar .menu{
+       margin-top:120px;
+     }
+     .name{
+       margin-top: 12%;
+     }
+     .sub-btn{
+       font-size: 12px;
+     }
+    }
