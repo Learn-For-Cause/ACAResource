@@ -202,27 +202,13 @@ background-color:lime;
    display: none;
   }
 }
-@media only screen and (max-width: 400px) {
-.side-bar {
-    width: 100%;
-    text-align: center;
-  }
-  .name{
-    left:10%;
-  }
-  #element1{
-    right:10%;
-  }
-}
 @media only screen and (max-width: 312px) {
 .name{
   left:1%
  }
 }
-@media only screen and (max-width: 334px) {
-  #icon{
-    left:5%
-   }
+
+@media only screen and (max-width: 380px) {
    .user{
      display:none;
    }
