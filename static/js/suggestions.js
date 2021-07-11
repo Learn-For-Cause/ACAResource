@@ -1,3 +1,4 @@
+
 let suggestions = [
     "Computer Science",
     "Mechanical",
@@ -11,5 +12,9 @@ let suggestions = [
     "BPUT",
     "Veltech University",
     "Visvesvaraya Technological University (VTU)",
- 
+
+
+
+
+
 ];
