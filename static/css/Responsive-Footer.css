@@ -1,0 +1,152 @@
+ .container-Footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+body{
+    background-color:white;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.coloumns-Footer
+{
+
+    color:black;
+    font-family: 'Crimson Text', serif;
+    width: 200px;
+    height:300px;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+.coloumns-Footer p{
+   padding-top: 2px;
+   text-align: center;
+   font-size: 18px;
+}
+.coloumns-Footer a{
+    text-align: center;
+    color:black;
+    padding-top: 2px;
+    text-align: center;
+    display: block;
+    margin :10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.coloumns-Footer h2{
+    text-align: center;
+    color:rgb(76, 76, 138);
+    padding-top: 23px;
+    font-size: 26px;
+}
+.all-Footer h1{
+    text-align: center;
+}
+.all-Footer{
+    background-color: gray;
+}
+.fab{
+    padding-left:4px;
+}
+@media only screen and (max-width: 400px) {
+
+    .coloumns-Footer p{
+        padding-top: 2px;
+        font-size: 18px;
+        
+     }
+     .coloumns-Footer a{
+         
+         color:black;
+         padding-top: 2px;
+         text-align: center;
+         display: block;
+         margin :10px 40px;
+         text-decoration: none;
+         border-radius: 10px;
+     }
+     
+     .coloumns-Footer h2{
+         text-align: center;
+         color:rgb(19, 226, 19);
+         padding-top: 23px;
+         font-size: 22px;
+        padding-left: 15px;
+         
+     }
+     h2{
+         padding-left: 45px;
+    }
+    .coloumns-Footer
+    {
+    
+        color:black;
+        font-family: 'Crimson Text', serif;
+        width:100%;
+      
+        margin: 10px;
+        border-radius: 15px;
+        
+    }
+    .all-Footer h1{
+        text-align: center;
+    }
+}
+.fab{
+  padding-right: 4px;
+}
+@media only screen and (max-width: 800px) {
+
+    .coloumns-Footer p{
+        padding-top: 2px;
+        font-size: 18px;
+        padding-left: 15;
+     }
+     .coloumns-Footer a{
+         
+         color:black;
+         padding-top: 2px;
+         text-align: center;
+         display: block;
+         margin :10px 40px;
+         text-decoration: none;
+         border-radius: 10px;
+     }
+     .coloumns-Footer
+{
+
+    color:black;
+    font-family: 'Crimson Text', serif;
+    width:100%;
+  
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+     .coloumns-Footer h2{
+         text-align: center;
+         color:rgb(83, 83, 141);
+         padding-top: 23px;
+         font-size: 22px;
+         text-align: center;
+     }
+     h2{
+         padding-left: 45px;
+
+    }
+    .all-Footer h1{
+        text-align: center;
+    }
+     h1
+    {
+        font-size: 15px;
+    }
+}
