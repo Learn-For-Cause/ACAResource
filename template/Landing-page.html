@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="../static/css/Responsive-Footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="../static/css/testimonal.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -226,6 +229,51 @@
        <center><button><a href="Get started">Get Started </a></button></center>
    </div>
     <!-- Call of action(Details) code ends here -->
+    <!-- Testimonal's code starts here -->
+    <div class="testimonial-section">
+      <div class="inner-width">
+        <h1>What Our Users Say</h1>
+        <div class="testimonial-pics">
+          <img src="../static/images/logo.jpeg" alt="test-1" class="active">
+          <img src="../static/images/logo.jpeg" alt="test-2">
+          <img src="../static/images/logo.jpeg" alt="test-3">
+          <img src="../static/images/logo.jpeg" alt="test-4">
+        </div>
+
+        <div class="testimonial-contents">
+          <div class="testimonial active" id="test-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur et adipisci ut, impedit cumque, similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
+            <span class="description">name / Developer</span>
+          </div>
+
+          <div class="testimonial" id="test-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elimet, consectetur adipisicing eli t. Ab consequatur et adipisci ut, impedit cumque, similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
+            <span class="description">name / Developer</span>
+          </div>
+
+          <div class="testimonial" id="test-3">
+            <p>Lorem  similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
+            <span class="description">name / Developer</span>
+          </div>
+
+          <div class="testimonial" id="test-4">
+            <p>Lorem ipsum dolorng elit. Ab consequatur et adipisci ut, impedit cumque, similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
+            <span class="description">name / Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $('.testimonial-pics img').click(function(){
+        $(".testimonial-pics img").removeClass("active");
+        $(this).addClass("active");
+
+        $(".testimonial").removeClass("active");
+        $("#"+$(this).attr("alt")).addClass("active");
+      });
+    </script>
+    <!-- Footer's  code ends here -->
      <!-- Footer's  code starts here -->
      <div class="all-Footer">
       <section class="container-Footer">
