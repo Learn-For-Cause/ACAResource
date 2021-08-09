@@ -32,14 +32,14 @@ body{
 }
 .cs
 {
-    background-image: url('/static/images/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg');
+    background-image: url('../images/mohammad-rahmani-LrxSl4ZxoRs-unsplash.jpg');
 }
 .mech
 {
-    background-image: url('/static/images/thisisengineering-raeng-nyAzMQ6Ejgs-unsplash.jpg');
+    background-image: url('../images/thisisengineering-raeng-nyAzMQ6Ejgs-unsplash.jpg');
 }
 .civil{
-    background-image: url('/static/images/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-image: url('../images/sean-pollock-PhYq704ffdA-unsplash.jpg');
 
 }
 .card p{
@@ -66,19 +66,19 @@ body{
     text-align: center;
 }
 .agriculture{
-    background-image: url('/static/images/tomas-hertogh-eS6rqvLx7o0-unsplash.jpg');
+    background-image: url('../images/tomas-hertogh-eS6rqvLx7o0-unsplash.jpg');
 }
 .electrical
 {
-    background-image: url('/static/images/dean-brierley-L9SUgIAVvlY-unsplash.jpg');
+    background-image: url('../images/dean-brierley-L9SUgIAVvlY-unsplash.jpg');
 }
 .electronics
 {
-    background-image: url('/static/images/clyde-he-555k71dHQLA-unsplash.jpg');
+    background-image: url('../images/clyde-he-555k71dHQLA-unsplash.jpg');
 }
 .ece{
-    background-image: url('/static/images/jorge-ramirez-MceA9kSze0U-unsplash.jpg');
+    background-image: url('../images/jorge-ramirez-MceA9kSze0U-unsplash.jpg');
 }
 .IT{
-    background-image: url('/static/images/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    background-image: url('../images/christopher-gower-m_HRfLhgABo-unsplash.jpg');
 }
