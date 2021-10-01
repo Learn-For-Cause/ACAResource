@@ -1,4 +1,5 @@
 .container-Footer{
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,7 +51,7 @@ body{
     text-align: center;
 }
 .all-Footer{
-    background-color: gray;
+    background-color:white;
 }
 .fab{
     padding-left:4px;
