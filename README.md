@@ -1,6 +1,6 @@
 # ACAResource
 
-## Learn,Share and Educate with us and enjoy the Open Learning Platform.✨
+## Learn, Share and Educate with us and enjoy the Open Learning Platform.✨
 
 
 ### Description 👀
